@@ -1,0 +1,85 @@
+---
+title: "NYC Restaurant Inspection Results"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(dplyr)
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+library(janitor)
+```
+
+Loading, subsetting and filtering the data for computational efficiency. 
+```{r}
+data(rest_inspec)
+
+rest_inspect = 
+  rest_inspec %>%
+  select(boro, critical_flag, cuisine_description, inspection_date, score, grade) %>%
+  mutate(year = lubridate::year(inspection_date)) %>%
+  filter(
+    !is.na(score),
+    !is.na(grade),
+    cuisine_description == "American",
+    critical_flag == "Critical",
+    year == 2014, 
+    grade == "A") %>%
+  clean_names()
+  
+```
+
+### Distribution of Critically-Violated American Cuisine Restaurant Inspection Scores across various Boroughs in 2014
+
+```{r}
+rest_inspect %>%
+  mutate(boro = fct_reorder(boro, score)) %>%
+  plot_ly(y = ~score, 
+          x = ~boro,
+          color = ~boro,
+          type = "box",
+          colors = "viridis") %>%
+  layout(xaxis = list(title = "Borough", automargin=TRUE),
+         yaxis = list(title = "Score", automargin=T))
+
+```
+
+
+### Number of Grade A American Cuisine Restaurants, under Critical Violation across different Boroughs, in 2014
+
+```{r}
+rest_inspect %>%
+  count(boro) %>%
+  mutate(boro = fct_reorder(boro, n)) %>%
+  plot_ly(x = ~boro, 
+         y = ~n, 
+         color = ~boro,
+         type = "bar",
+         colors = "viridis") %>% 
+  layout(xaxis = list(title = "Borough"),
+         yaxis = list(title = "Number of Restaurants"))
+```
+
+### Distribution of Critically-Violated American Cuisine Restaurant Inspection Scores across differnt months in 2014
+
+```{r, warning=FALSE, message=FALSE, error=FALSE}
+rest_inspect %>%
+  mutate(month = month.name[lubridate::month(inspection_date)]) %>%
+  plot_ly(x = ~month,
+         y = ~score, 
+         color = ~boro,
+         type = "violin", 
+         mode = "markers",
+         colors = "viridis") %>% 
+  layout(xaxis = list(title = "Month", tickangle = 45),
+         yaxis = list(title = "Score"))
+```
+
+
+

@@ -7,6 +7,8 @@ navbar:
   right:
     - text: "CV"
       href: about.html
+    - text: "Restaurant Inspection 2014 - Dashboard"
+      href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<vsaikrishna1995@gmail.com>
     - icon: fa-github fa-lg
