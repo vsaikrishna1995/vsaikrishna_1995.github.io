@@ -1,0 +1,18 @@
+---
+title: "Krishna Vemulapalli"
+output:  html_document
+---
+
+### An Aspiring Biostatician and Data Scientist
+
+<img src="images/img1.jpg" style="width:75%">    
+   
+***
+    
+I am currently pursuing a Master’s degree in Biostatistics at Columbia University, with prior professional experience in the pharmaceutical industry. At Columbia University, I am presently working on learning new statistical analysis methods and building on the previously acquired analysis skills. As part of the Biostatistics program, I have completed courses such as biostatistical methods, new drug development, computing with SAS, introduction to randomized clinical trials, analysis of categorical variables, statistical inference and principles of epidemiology during my first year.   
+    
+While working in the regulatory department at Technical Resource International, a full-service CRO, I had the opportunity to collaborate with many experienced pharmaceutical industry professionals representing various entities such as FDA, NIH and pharma companies. I was able to gain valuable insight on the drug, vaccine and device development processes from a regulatory standpoint, through operational activities and the mentorship of my manager. I also had an opportunity to cross-train with the data analytics team during my time at TRI.    
+      
+In addition, I completed a certification in Data Science, which required me to become proficient in executing the following techniques on R and Python platforms: Data Visualization, Data Pre-Processing, Machine Learning Algorithms – Supervised and Unsupervised, Text Mining and Neural Networks. As a Teaching Assistant in the Department of Computational Data Science at George Mason University, I helped students from a variety of non-technical backgrounds learn the Matlab programming language. During my course works, I also gained experience in computing using SAS and SPSS.     
+
+##### Please find my resume here: [Resume](about.html)

@@ -1,0 +1,18 @@
+name: "Krishna Vemulapalli"
+output_dir: "."
+navbar:
+  left:
+  - text: "Home"
+    href: index.html
+  right:
+    - text: "CV"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<vsaikrishna1995@gmail.com>
+    - icon: fa-github fa-lg
+      href: https://github.com/vsaikrishna1995
+    - icon: fa-linkedin fa-lg
+      href: https://linkedin.com/in/krishna-vemulapalli-74627b13b
+output:
+  html_document:
+    theme: flatly

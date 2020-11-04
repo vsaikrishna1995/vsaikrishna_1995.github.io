@@ -1,0 +1,57 @@
+---
+title: "RESUME"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+***
+
+### EDUCATION   
+     
+Columbia University, Mailman School of Public Health, NY, NY **[May 2021]**   
+Master of Science in Biostatistics, Concentration in Pharmaceuticals Statistics
+Involvement: Data Science Club, Consulting Club   
+      
+George Mason University, Fairfax, VA **[May 2017]**   
+Bachelor of Science in Neuroscience, Minor in Computational Data Sciences and Chemistry    
+Awards: Undergraduate Student Achievement Award, Honors College, Dean’s List    
+
+***
+
+### PROFESSIONAL EXPERIENCE    
+     
+Technical Resource International, Bethesda, MD **[Aug 2017 – Dec 2018]**   
+*Regulatory Associate*   
+   
+* Reviewed and remediated over 200 submission related documents, such as site documents, CRFs, Annual Reports, Study Protocols, Clinical Study Reports, Safety Reports, for eCTD readiness and regulatory adherence   
+* Created and assigned submission tasks (dossiers) in Data Management System. Closely coordinated with client representatives throughout the lifecycle of applications. Designed and executed reports to track and regulate the applications’ status for senior management    
+* Published and submitted over 100 regulatory submissions, including Orphan drug, Q-sub, Master File, Pre-IND, IND, Pre-IDE, IDE (good understanding of eCopy regulations and submission folder structure), 510k and PMA, electronically via ESG to multiple FDA agencies: Center for Drug Evaluation and Research, Center for Biologics Evaluation and Research and Center for Devices and Radiological Health    
+* Performed post-maintenance tasks for every application, including archiving activities, post-submission updates to relevant parties and updating the status in the Data Management System     
+* Developed guidance documents and revised site doc templates for diverse clientele, including pharmaceutical companies, hospitals and National Institutes of Health divisions     
+* Communicated with Quality Assurance and IT department units, clients and software vendors for receivables and task updates      
+* Administered operational training to 5 clients and 3 interns on quarterly basis over 2-year period   
+* Developed and revised 10 Work Instructions, 5 Standard Operating Procedures and 3 work-flow checklists   
+* Developed 3 communication templates to standardize communication and 3 trackers to monitor applications   
+* Compliant with Good Clinical Practices, International Council for Harmonisation and federal regulatory guidelines. Knowledgeable about the electronic European Medicines Agency and Central Drugs Standard Control Organization regulatory requirements and compliances    
+* Knowledgeable about Drug Master File and Quality Management System processes, including training control, CAPA, document control and audit     
+    
+GMU Computational Data Sciences Department, Fairfax, VA **[Aug 2016 – May 2017]**    
+*Research Assistant*    
+    
+* Involved in the development of algorithm to perform text-based analysis of medical literature     
+* Performed image processing procedures and techniques     
+* Performed text mining procedures    
+* Teaching Assistant – proctored 2 exams, held 2 review session, graded 10 HWs per semester     
+
+***
+
+### SKILLS AND CERTIFICATIONS   
+     
+**Programming Languages**: Microsoft Office Suite (Advanced), MySQL, SPSS    
+**Scripting Languages**: R, SAS, Python, Matlab     
+**Certifications**: Data Scientist Certification (2019)    
+**Languages**: English, Hindi     
+
+***
